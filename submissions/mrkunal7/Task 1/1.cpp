@@ -8,7 +8,7 @@ vector<int> getConcatenate(vector<int> &nums){
     }
     for (int i = 0; i < nums.size(); i++)
     {
-        ans.emplace_back(nums[i]); //For storing again that numbers in ans vector.
+        ans.emplace_back(nums[i]); //For storing back that numbers in vector named - 'ans' 
     }
     return ans;
 }
